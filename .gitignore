@@ -1,0 +1,17 @@
+####### Ignorar archivos que tengan una "p" en su nombre de extensión:
+*.*p*
+####### Ignorar archivos que acaben su extensión en "x":
+*.*x
+
+####### x Ignorar algunos archivos de Microsoft Office menos .ppt y .docx
+####### x Si no se agregarían las excepciones, .ppt y .docx quedarían eliminadas, por ej.
+!*.ppt
+!*.docx
+*.dot
+*.xls
+*.xlsx
+*.xlsm
+*.xlt
+
+####### Ignorar de esa ruta relativa, las carpetas que contengan más de una C en el nombre:
+Varias carpetas/Carpeta 2/*CC*
